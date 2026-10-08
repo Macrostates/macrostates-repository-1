@@ -15,6 +15,14 @@ files. Expected root files include:
 
 Additional root files should have a clear repository-level purpose.
 
+## Macrostates artifacts
+
+Track `.macrostates/specs/` and, when selected, `.macrostates/implementation/`,
+including imported packages and composition locks. Do not blanket-ignore
+`.macrostates/` or all dot directories. Ignore only disposable caches or local
+operation workspaces; preserve recovery data until an interrupted operation is
+resolved. Root `AGENTS.md` points to `.macrostates/specs/main.md`.
+
 ## Temporary files
 
 Do not create garbage, scratch, dataset, or temporary test files directly in the
