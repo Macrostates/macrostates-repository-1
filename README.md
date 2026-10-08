@@ -30,3 +30,10 @@ scope for this package.
 2. [Contents](002_contents.md)
 3. [Documentation](003_documentation.md)
 4. [Technology](004_technology.md)
+
+## License
+
+This specification package, including its documentation, metadata, and bundled
+resources, is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Lucas Lopez.
